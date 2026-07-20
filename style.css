@@ -130,3 +130,21 @@ footer{
     background:#000;
     border-top:2px solid #D4AF37;
 }
+.buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:25px;
+}
+
+.secondary{
+    background:transparent;
+    border:2px solid #D4AF37;
+    color:#D4AF37;
+}
+
+.secondary:hover{
+    background:#D4AF37;
+    color:#111;
+}
