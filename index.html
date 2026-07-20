@@ -1,152 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Racheal Osoluka | Customer Support Specialist</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racheal Osoluka | Customer Support Specialist</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-body{
-background:#111;
-color:white;
-}
-
-<header>
-
-<nav style="display:flex;justify-content:space-between;align-items:center;padding:15px 40px;background:#000;position:sticky;top:0;">
-
-<h2 style="color:#D4AF37;font-size:28px;font-weight:700;margin:0;">
-Racheal Osoluka
-</h2>
-
-<div>
-
-<a href="#about" style="color:white;margin:15px;text-decoration:none;">About</a>
-
-<a href="#services" style="color:white;margin:15px;text-decoration:none;">Services</a>
-
-<a href="#contact" style="color:white;margin:15px;text-decoration:none;">Contact</a>
-
-</div>
-
-</nav>
-
-</header>
-background:linear-gradient(135deg,#000,#1b1b1b);
-padding:20px;
-text-align:center;
-border-bottom:1px solid #d4af37;
-box-shadow:0 5px 20px rgba(212,175,55,.25);
-}
-
-header h1{
-color:gold;
-font-size:40px;
-}
-
-header p{
-font-size:20px;
-margin-top:10px;
-}
-
-.hero{
-padding:60px 20px;
-text-align:center;
-}
-
-.hero img{
-width:220px;
-height:220px;
-border-radius:50%;
-border:5px solid gold;
-object-fit:cover;
-}
-
-.hero h2{
-margin-top:20px;
-font-size:32px;
-color:gold;
-}
-
-.hero p{
-max-width:700px;
-margin:20px auto;
-line-height:1.8;
-font-size:18px;
-}
-
-.button{
-display:inline-block;
-background:gold;
-color:black;
-padding:15px 30px;
-text-decoration:none;
-border-radius:40px;
-font-weight:bold;
-margin-top:20px;
-}
-
-section{
-padding:50px 20px;
-max-width:1000px;
-margin:auto;
-}
-
-h3{
-color:gold;
-margin-bottom:20px;
-font-size:30px;
-}
-
-footer{
-background:#000;
-text-align:center;
-padding:20px;
-margin-top:40px;
-border-top:2px solid gold;
-}
-</style>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>Racheal Osoluka</h1>
-<p>Customer Support Specialist | Virtual Assistant | Community Moderator</p>
-</header>
+<nav>
+  <div class="logo">Racheal Osoluka</div>
+
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
 <section class="hero">
 
 <img src="IMG_20260716_050439.png" alt="Racheal Osoluka">
 
-<h2>Helping Businesses Deliver Outstanding Customer Experiences</h2>
+<h1>Hi, I'm Racheal Osoluka</h1>
+
+<h2>Customer Support Specialist • Virtual Assistant</h2>
 
 <p>
-I have over 8 years of experience helping customers through email, chat, phone support, and community management. My passion is creating excellent customer experiences while helping businesses grow.
+Helping businesses deliver outstanding customer experiences through professional customer support, virtual assistance and administrative excellence.
 </p>
 
-<a class="button" href="https://www.linkedin.com/in/osoluka-racheal-1968b4141">Hire Me</a>
+<a class="btn" href="https://www.linkedin.com/in/osoluka-racheal-1968b4141">
+Hire Me
+</a>
 
 </section>
 
-<section>
+<section id="about">
 
-<h3>About Me</h3>
+<h2>About Me</h2>
 
 <p>
-Experienced Customer Support Specialist with expertise in customer service, virtual assistance, CRM systems, chat moderation, and administrative support. I am passionate about solving customer problems and helping businesses build lasting relationships.
+Experienced Customer Support Specialist with over 8 years of experience providing exceptional customer service, chat support, community moderation and administrative support.
 </p>
+
+</section>
+
+<section id="services">
+
+<h2>Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Customer Support</h3>
+</div>
+
+<div class="card">
+<h3>Virtual Assistance</h3>
+</div>
+
+<div class="card">
+<h3>Chat Moderation</h3>
+</div>
+
+</div>
 
 </section>
 
@@ -155,6 +80,8 @@ Experienced Customer Support Specialist with expertise in customer service, virt
 © 2026 Racheal Osoluka
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
