@@ -129,64 +129,10 @@ footer{
     padding:30px;
     background:#000;
     border-top:2px solid #D4AF37;
-    @media (max-width:768px){
 
-nav{
-    flex-direction:column;
-    padding:15px;
-}
 
-.logo{
-    font-size:22px;
-    margin-bottom:15px;
-    text-align:center;
-}
 
-nav ul{
-    display:flex;
-    justify-content:center;
-    gap:15px;
-    flex-wrap:wrap;
-}
 
-.hero h1{
-    font-size:34px;
-}
-
-.hero h2{
-    font-size:20px;
-}
-
-.hero img{
-    width:180px;
-    height:180px;
-}
-
-.buttons{
-    flex-direction:column;
-    align-items:center;
-}
-
-}
-}
-.buttons{
-    display:flex;
-    gap:15px;
-    flex-wrap:wrap;
-    justify-content:center;
-    margin-top:25px;
-}
-
-.secondary{
-    background:transparent;
-    border:2px solid #D4AF37;
-    color:#D4AF37;
-}
-
-.secondary:hover{
-    background:#D4AF37;
-    color:#111;
-}
 /* Mobile Responsive */
 @media screen and (max-width: 768px){
 
